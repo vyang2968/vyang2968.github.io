@@ -1,3 +1,7 @@
+:root {
+  background-color: #e48397;
+}
+
 .div {
   background-color: #e48397;
   display: flex;
@@ -60,6 +64,7 @@
   border-radius: 30px;
   margin-right:200px;
   font-size: large;
+  font-family: fantasy;
 }
 
 .ybutton:hover {
@@ -78,7 +83,7 @@
   border-radius: 30px;
   margin-right: 0px;
   font-size: large;
-  
+  font-family: fantasy;
 }
 
 .nbutton:hover {
