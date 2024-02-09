@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
         window.setTimeout(() => {
             loaded = true;
             window.location.replace("/animation/animation.html");
-        }, 2000)
+        }, 3000)
     }, 4000)
 });
 
