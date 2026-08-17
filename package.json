@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && tsc --noEmit",
+    "build": "vite build && bunx tsc --noEmit",
     "preview": "vite preview",
     "deploy": "bun run build && wrangler deploy",
     "cf-typegen": "wrangler types",
-    "postinstall": "WRANGLER_LOG=warn bun run --silent cf-typegen"
+    "postinstall": "WRANGLER_LOG=warn bunx wrangler types"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.170.29",
